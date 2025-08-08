@@ -1,0 +1,85 @@
+HTML -- Hyper Text Markup Language
+	Tag is a Pre-defined Word <TagName> .... </TagName>
+	
+	Tags :
+		1.Paired Tags
+		2.Unparied Tags
+
+Fundamental of HTML
+<html>
+	<head>
+		<title>....</title>
+	</head>
+
+	<body>
+	.
+	.
+	</body>
+</html>
+
+Tags :
+	Heading Tag -- h1,h2,h3,h4,h5,h6
+	Paragraph Tag -- <p></p>
+	
+
+
+Date : 28-07-2025
+
+--- Marquee Tag in Html
+	Attributes : 
+		Behavior -- Make the Content Loop or Repeact (Alternate & Slide)
+		direction -- Make the Content Moves Which Side
+Example:
+<marquee behavior="alternate (or) slide" direction="right"><img src="/Gif/multiversus-tom.gif" alt=""></marquee>
+
+
+Media.html
+----------
+
+-- Audio Tag :
+	<audio src="Path Location" controls autoplay loop muted></audio>
+	Attributes :
+		controls -- Make the Audio Visible (Must Need)
+		loop -- The Audio Will me Play Looped
+		muted -- The Audio Will Muted When Started
+		autoplay -- The Audio Will Play automatically When The Page Load.
+
+	<video src="Path Location" controls autoplay loop muted></video>
+	Attributes :
+		controls -- Make the Audio Visible (Must Need)
+		loop -- The Audio Will me Play Looped
+		muted -- The Audio Will Muted When Started
+		autoplay -- The Audio Will Play automatically When The Page Load.
+		poster -- This Will be Make the Video Thumbnail.
+
+-- iframe Tag :
+	<iframe src="we can add any Link or Website Links" frameborder="2" width="720" height="400"></iframe>
+	-- for Google map and youtube Video copy there Embedded. Link to make Visible in the Website
+
+
+Date : 29-07-2025
+
+-- Table Tag :
+	
+<table border="1"> -- This table tag will make a Formation of table look
+    <tr>           -- This tr Tag make the Content Of Table Row 
+        <td></td>  -- This td Tag make the table data.
+    </tr>
+</table>
+
+<th> this tag make the Row In the Table Will be Heading Row </th>
+<caption> This make the table Headding</caption>
+
+	Attributes :
+		1. border -- This make the table Border (Outline The Table -- Must Need)
+		2. height -- This make the table Height
+ 		3. width -- This make the table width
+		4. cellspacing -- this make the Table space between the cells (Outside of the Cell)
+		5. cellpadding -- this make the table space between inner cell (Inner the cell)
+-------------
+<Table>
+tr - table Row
+th - table Heading
+td - table Data
+
+						

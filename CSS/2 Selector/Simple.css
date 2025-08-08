@@ -1,0 +1,30 @@
+/* Tag Name Selector */
+
+*{
+    font-style: italic;
+}
+nav {
+    background-color: cyan;
+    color: black;
+}
+
+#logo {
+    color: purple;
+}
+
+main {
+    height: 200px;
+    background-color: purple;
+    color: cyan;
+}
+.para{
+    font-style: italic;
+    font-size: 25px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/* Group Selector */
+
+h3, h4, .para, #logo {
+    text-decoration: underline;
+}

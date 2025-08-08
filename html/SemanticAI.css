@@ -1,0 +1,150 @@
+/* Semantic.css */
+
+/* General Reset and Font */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: #ffeef5;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Nav Bar */
+nav {
+  background: #ffb3c6;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 5px dotted #ff6f91;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+nav h2 {
+  font-size: 1.8rem;
+  color: #fff;
+}
+
+nav ul {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+nav li {
+  color: #fff;
+  cursor: pointer;
+  transition: transform 0.3s;
+}
+
+nav li:hover {
+  transform: scale(1.1);
+}
+
+/* Header Section */
+header {
+  text-align: center;
+  padding: 2rem;
+  background: linear-gradient(to right, #ffc6ff, #bdb2ff);
+  border-radius: 15px;
+  margin: 1rem;
+  box-shadow: 0 8px 15px rgba(0,0,0,0.1);
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #8e44ad;
+}
+
+header p {
+  margin: 1rem 0;
+  color: #555;
+}
+
+header button {
+  background: #ff8fab;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  color: white;
+  cursor: pointer;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+}
+
+header button:hover {
+  background: #ff6f91;
+}
+
+/* Main Figures */
+main {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem;
+}
+
+figure {
+  border: 2px dashed #ffc8dd;
+  padding: 1rem;
+  border-radius: 15px;
+  background: #fff0f6;
+  text-align: center;
+}
+
+figcaption {
+  margin-top: 0.5rem;
+  font-style: italic;
+  color: #ff70a6;
+}
+
+/* Section with Aside */
+section {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem;
+}
+
+aside {
+  width: 40%;
+}
+
+article h2 {
+  background: #caffbf;
+  padding: 1rem;
+  border-radius: 15px;
+  text-align: center;
+  color: #2d6a4f;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Details Tag */
+details {
+  background: #fdffb6;
+  padding: 1rem;
+  border-radius: 10px;
+  margin: 2rem;
+  box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+  cursor: pointer;
+}
+
+details summary {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: #d00000;
+}
+
+/* Footer Section */
+footer {
+  text-align: center;
+  padding: 1rem;
+  background: #9bf6ff;
+  font-size: 1.2rem;
+  color: #006d77;
+  border-top: 5px dotted #00bbf9;
+}

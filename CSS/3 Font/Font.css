@@ -1,0 +1,41 @@
+header {
+    background-color: cyan;
+    height: 200px;
+    color: black;
+}
+
+header>p {
+    color: rebeccapurple;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 22px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+main>h1 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    letter-spacing: 2px;
+    color: violet;
+    font-style: italic;
+    font-weight: bold;
+    text-shadow: 4px 5px 5px pink;
+}
+
+main p {
+    text-align: justify;
+    text-transform: capitalize;
+    word-spacing: 2px;
+    text-indent: 30px;
+    background-color: lightpink;
+    font-size: 14px;
+    line-height: 20px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.property h3 {
+    text-transform: capitalize;
+    letter-spacing: 1.5px;
+}

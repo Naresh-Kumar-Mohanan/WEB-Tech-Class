@@ -1,0 +1,40 @@
+nav {
+    background-color: black;
+    color: wheat;
+}
+
+.outer {
+    background-color: lightblue;
+    height: 300px;
+    width: 600px;
+}
+
+.inner {
+    background-color: purple;
+    height: 200px;
+    width: 400px;
+}
+
+/* Decendent  Selectors */
+
+.outer h2 {
+    color: tomato;
+}
+
+/* Direct Child Selector */
+
+.outer>h2 {
+    color: green;
+}
+
+/* 
+nav>h2{
+    color: yellow;
+} */
+#logo {
+    color: red;
+}
+
+#heading {
+    text-decoration: underline;
+}

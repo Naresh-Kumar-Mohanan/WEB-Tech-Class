@@ -1,0 +1,30 @@
+header > button {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+header > button:hover {
+    background-color: black;
+    font-size: 18px;
+}
+
+header > button:active {
+    background-color: white;
+    color : black;
+}
+
+header > ol > li:nth-child(4) {
+    color: red;
+}
+header > ol > li:nth-child(2n-1) {
+    color: red;
+    background-color: darkblue;
+}
+.box > h1:nth-child(3) {
+    color: black;
+    background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ3x2Qccx0-tY1FC5vsRRfmTkatHTPFMw7M6O6qJJXjvi6hlsJLHmYkxFfswdchfV-SsfqviQRmo5BvdwYI8cQ5SLfY5qILx3BJY5l1-KIV2A);
+    height: 200px;
+    text-align: center;
+    transform: rotate(180deg);
+}
