@@ -1,43 +1,46 @@
-#  Learning WEB Technologies: HTML · CSS · JavaScript
+# 🌐 WEB-Tech-Class
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?lines=Building+UI+with+HTML;Styling+with+CSS;Adding+Logic+with+JavaScript)](https://git.io/typing-svg)
-
----
-
-##  Code Overview
-Here's a dynamic breakdown of what you've worked on:
-
-| Feature                   | Description                                   |
-|---------------------------|-----------------------------------------------|
-| HTML Files                | MARKUP structure and semantic layout          |
-| CSS Stylesheets           | Styling and responsive design                 |
-| JavaScript Scripts        | Dynamic behavior and interactivity            |
-| Projects / Examples       | Live sample pages (e.g. forms, carousels)     |
-| Learning Notes            | Documented insights and TODOs                 |
+[![Typing SVG](https://readme-typing-svg.demolab.com?lines=Learning+HTML%2C+CSS%2C+JavaScript;Practicing+Web+Design;Building+Dynamic+Websites)](https://git.io/typing-svg)
 
 ---
 
-##  GitHub Activity
-These cards are live—automatically updating as you push new content.
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=YOUR_GITHUB_USERNAME&show_icons=true&theme=radical)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=YOUR_GITHUB_USERNAME&layout=compact&theme=radical)
-
----
-
-##  Progress Tracker
-> Shows your continuous learning streak!
-
-![GitHub Streak](https://streak-stats.demolab.com?user=YOUR_GITHUB_USERNAME&theme=radical)
+## 📚 About This Repo
+This repository contains my practice and learning journey with:
+- **HTML5** — Structure & semantic markup  
+- **CSS3** — Styling, responsive layouts, animations  
+- **JavaScript** — Interactivity, DOM manipulation, event handling  
 
 ---
 
-##  Learning Journey Highlights
-- Practiced semantic **HTML5** (forms, tables, layout elements)  
-- Applied **CSS3** (flexbox, grid, transitions, responsive techniques)  
-- Crafted **Vanilla JavaScript** logic (DOM manipulation, event handling)  
-- Built interactive examples (e.g., interactive quizzes, modals, image sliders)  
+## 📊 GitHub Stats
+![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Naresh-Kumar-Mohanan&show_icons=true&theme=radical)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Naresh-Kumar-Mohanan&layout=compact&theme=radical)
 
 ---
 
-**Tip:** No manual updates needed! As you add or modify code, the stats and streak cards refresh automatically—so your README always reflects your current progress.
+## 🔥 Streak Tracker
+[![GitHub Streak](https://streak-stats.demolab.com?user=Naresh-Kumar-Mohanan&theme=tokyonight-duo)](https://git.io/streak-stats)
+
+---
+
+## 🗂 Project Highlights
+| Topic            | Examples / Practice Tasks |
+|------------------|---------------------------|
+| HTML Basics      | Headings, paragraphs, lists, tables |
+| CSS Styling      | Colors, layouts, flexbox, grid, transitions |
+| JavaScript Basics| Events, DOM, variables, functions |
+
+---
+
+## 🛠 Tools & Tech
+![HTML5 Badge](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3 Badge](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript Badge](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+
+---
+
+## 📅 Last Updated
+> This README updates automatically as soon as I push new commits.
+
+---
