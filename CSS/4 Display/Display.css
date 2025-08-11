@@ -1,0 +1,19 @@
+
+.main{
+    width: 300px;
+    background-color: black;
+    margin: 20px 40px;
+    padding: 20px 40px;
+    border-radius: 20px;
+}
+.main > button {
+    display: block;
+    height: 30px;
+    width: 100%;
+    margin-bottom: 10px;
+    background-color: orange;
+    letter-spacing: 1.2px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
