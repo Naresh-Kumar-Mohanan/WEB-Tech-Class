@@ -1,0 +1,82 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.outer {
+    background-color: lightpink;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer>.inner {
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    padding: 20px;
+    font-style: italic;
+    background-color: pink;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.outer>.inner>h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    width: 200px;
+}
+
+.outer>.inner>#p1 {
+    font-size: 10px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.outer>.inner>form>label {
+    font-size: 15px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+input {
+    border-radius: 5px;
+    padding: 5px;
+    text-transform: lowercase;
+    border: 1px solid black;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+    font-style: italic;
+    
+}
+
+.outer>.inner>button {
+    background-color: blue;
+    padding: 5px;
+    font-size: 12px;
+    margin-bottom: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 10px;
+
+}
+
+.outer>.inner>button:hover {
+    background-color: black;
+}
+
+.outer>.inner>.end {
+    font-size: 8px;
+    display: flex;
+    gap: 5px;
+    justify-content: space-between;
+}
+
+.outer>.inner>.end>a {
+    font-size: 8px;
+    text-decoration: none;
+    color: blue;
+}
