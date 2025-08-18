@@ -1,0 +1,37 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.card {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-attachment: fixed;
+    flex-flow: row;
+}
+
+#box1 {
+    background-image: url(https://occ-0-8407-90.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABQR-yWK8nGFN4es_k0fV1vtdRY63ByAzn65MkPgn9FdVZi0S8l5gMKENbYAV7G3a5SOLIjT3G233Gwf0ahb3Zag4itLxjpTnHGol.jpg?r=f97);
+    background-size: cover;
+}
+
+#box2 {
+    background-image: url(https://www.cnet.com/a/img/resize/38bff85a56b48921785a6050d9bc34c6c28e59ea/hub/2019/06/27/a6b10caf-cfd4-49c6-b664-db51c84cd9f5/watch-some-crazy-fat-thor-stunts-in-bts-videos-from-avengers-endgame-social.jpg?auto=webp&fit=crop&height=675&width=1200);
+    background-size: cover;
+}
+
+#box3 {
+    background-image: url(https://wallpapers.com/images/featured/spiderman-pictures-8opf8q4smmpx644d.jpg);
+    background-size: cover;
+}
+
+.card>h1 {
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: white;
+    text-shadow: 5px 5px 4px black;
+}
