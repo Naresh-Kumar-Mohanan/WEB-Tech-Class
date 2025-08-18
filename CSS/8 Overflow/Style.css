@@ -1,0 +1,38 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.outer {
+    background-image: linear-gradient(to right, red, yellow, black);
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.outer>.inner {
+    width: 400px;
+    height: 350px;
+    padding: 20px 40px;
+    background-image: linear-gradient(to right, blue, red, purple);
+    border-radius: 20px;
+    text-align: justify;
+    /* overflow: hidden; */
+    /* overflow: scroll; */
+    overflow: auto;
+    box-shadow: 8px 7px 4px black;
+}
+
+.outer>.inner>h2 {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+    letter-spacing: 1.6px;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
