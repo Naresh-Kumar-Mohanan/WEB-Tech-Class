@@ -1,0 +1,73 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.outer {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.outer>.inner {
+    background-color: white;
+    height: 250px;
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 10px;
+}
+
+.inner>h2 {
+    text-shadow: 5px 4px 2px black;
+    animation: names 2s ease-in infinite alternate;
+}
+
+#n {
+    /* animation-delay: 0.1s; */
+}
+#a {
+    animation-delay: 0.1s;
+}
+#r {
+    animation-delay: 0.2s;
+}
+#e {
+    animation-delay: 0.3s;
+}
+#s {
+    animation-delay: 0.4s;
+}
+#h {
+    animation-delay: 0.5s;
+}
+#k {
+    animation-delay: 0.6s;
+}
+#u {
+    animation-delay: 0.7s;
+}
+#m {
+    animation-delay: 0.8s;
+}
+#a {
+    animation-delay: 0.9s;
+}
+#r {
+    animation-delay: 1s;
+}
+
+@keyframes names {
+    from {
+        transform: translateY(0px);
+    }
+
+    to {
+        transform: translateY(-30px);
+    }
+}
