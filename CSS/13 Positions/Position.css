@@ -1,0 +1,99 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.outer {
+    height: 100vh;
+    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.middle {
+    height: 90%;
+    width: 90%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 5px 6px 12px black;
+    border-radius: 10px;
+}
+
+.outer>.middle>.inner {
+    height: 80%;
+    width: 80%;
+    background-color: black;
+    box-shadow: 5px 6px 10px black;
+    border: 1px solid;
+    position: relative;
+    border-radius: 10px;
+}
+
+.box {
+    height: 80px;
+    width: 80px;
+    border-top: 2px solid violet;
+    color: violet;
+    position: absolute;
+    text-transform: uppercase;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner>#box1 {
+    /* background-color: red; */
+    position: absolute;
+    animation: rotation 1s infinite linear;
+    border-radius: 50%;
+}
+
+.inner>#box2 {
+    /* background-color: blue; */
+    position: absolute;
+    right: 0px;
+    animation: rotation 1s infinite linear;
+    border-radius: 50%;
+}
+
+.inner>#box3 {
+    /* background-color: green; */
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    animation: rotation 1s infinite linear;
+    border-radius: 50%;
+}
+
+.inner>#box4 {
+    /* background-color: yellow; */
+    position: absolute;
+    bottom: 0px;
+    animation: rotation 1s infinite linear;
+    border-radius: 50%;
+}
+
+.inner>#box5 {
+    /* background-color: violet; */
+    position: absolute;
+    border-radius: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    /* animation: rotation 1s infinite linear; */
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
