@@ -55,7 +55,7 @@ nav>.navResume {
     from {
         transform: rotate(0deg);
     }
-
+    
     to {
         transform: rotate(360deg);
     }
@@ -91,4 +91,81 @@ nav>ul>li:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+
+.login>form {
+    height: 500px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    gap: 10px;
+    border-radius: 70px;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+}
+
+.login>form>h1 {
+    position: absolute;
+    top: 40px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+}
+.login>form>h1:hover{
+    text-shadow: 1px 1px 10px white;
+}
+
+label {
+    width: 100%;
+    padding-left: 25px;
+    text-transform: lowercase;
+    font-weight: bold;   
+    font-size: 20px;
+}
+label:hover{
+    color: purple;
+}
+
+input {
+    width: 80%;
+    padding: 5px;
+    font-style: italic;
+    margin-bottom: 10px;
+    margin-bottom: -10px;
+}
+input:hover{
+    padding: 7px;
+    width: 85%;
+}
+
+button{
+    padding: 7px;
+    width: 80%;
+    margin-top: 60px;
+    background-color: black;
+    color: white;
+    border: none;
+    text-transform: capitalize;
+    border-radius: 20px;
+}
+button:hover{
+    font-size: 17px;
+    color: purple;
+    text-transform: uppercase;
+}
+.login form > .endlog{
+    font-size: 12px;
+    display: flex;
+    gap: 180px;
+}
+.login form > .endlog> a{
+    color: white;
+    text-decoration: none;
+}
+.login form > .endlog> a:hover{
+    font-size: 14px;
+    color: purple;
 }
