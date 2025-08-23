@@ -92,19 +92,3 @@ nav>ul>li:hover {
     align-items: center;
     justify-content: center;
 }
-
-.outer>.inner>.login {
-    position: relative;
-    height: 80%;
-    width: 80%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.outer>.inner>.login>h1 {
-    position: absolute;
-    top: 0px;
-    font-size: 45px;
-    text-transform: uppercase;
-}
