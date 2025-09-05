@@ -1,4 +1,7 @@
-
+/* 
+Important Question
+1. Slice and Splice Difference 
+*/
 let arr = [10, "html", true, [2, 5]]
 
 console.log(arr);
@@ -106,6 +109,7 @@ console.log(subjects);
 // ! Higher Order Array Methods
 
 // ! 1. Map()
+// Map Method is Higher order Array method, It is used to travese the array and perform any operation with all the elements of the array.   
 let number = [80, 75, 60, 82, 92]  // o/p --> [85,80,65,87,97]
 let x = [];
 for (i = 0; i < number.length; i++) {
@@ -127,6 +131,7 @@ console.log(uppercasearr);
 
 
 // ! 2. Filter()
+//  it is one higher order array method, used to traveser the array and check the condition and it will return one new array.
 let greater = number.filter((nums) => {
     return nums > 80;
 })
@@ -134,14 +139,19 @@ console.log(greater);
 
 
 // ! 3. Reduce()
+//  it is one higher order array method, used toconvert the array into one array, it will take 4 parameters (accumulator, element, index, array).
 let arr11 = [10, 20, 30, 40, 50, 60];
-let sum = arr11.reduce((accumulator, element) => {
+let sum = arr11.reduce((accumulator, element /* ,Index, Array*/) => {
     return accumulator + element;
 }/* (,Accumulator Value will be there) */)
 console.log(sum);
 
 
 // ! 4. Sort()
+// it is used to sort the array into accending or dessending order.
+//  it will take 2 parameters in the callback function.
+// Firstparameter - Secondparameter = asscending order
+// Secondparameter - Firstparameter= Descending order
 let arr12 = [3, 1, 6, 22, 5, 9]
 let ascOrder = arr12.sort((a, b) => {
     return a - b; // a-b Will give Assending order of data 
@@ -151,3 +161,12 @@ let dscOrder = arr12.sort((a, b) => {
     return b - a; // b-a Will give the Dessending Order of data
 })
 console.log(dscOrder);
+
+
+// ! 5. forEach()
+let arr13 = [10, 20, 30, 40, 50]
+let prices_x = arr13.forEach((element) => {
+    console.log(element + 10);
+    return element // cannot use return keyword in the forEach() method.
+})
+console.log(prices_x); // it will throw undefined error
