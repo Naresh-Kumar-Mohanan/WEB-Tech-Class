@@ -33,3 +33,44 @@ console.log(cards[1].innerText);
 console.log(cards[1].innerHTML);
 
 cards[2].innerHTML = "<h2>Hello</h2> <p>I am Naresh</p>"
+
+// ! How to Apply Css :
+let cssli = document.getElementsByTagName("li");
+console.log(cssli[1]);
+
+let contact = cssli[2];
+console.log(contact);
+
+cssli[1].style.color = "Green";
+contact.style.color = "red"
+contact.style.textDecoration = "underline"
+
+// ! How to add or Remove Classes :
+let firstCard = document.querySelector(".card");
+console.log(firstCard);
+
+console.log(firstCard.classList);
+firstCard.classList.add("Naresh");
+firstCard.classList.add("Sample");
+console.log(firstCard);
+
+// To add Class :
+cards[1].classList.add("nk");
+// To Remove Class :
+// cards[1].classList.remove("nk");
+
+
+// ! How to create any Element :
+let div = document.createElement("div");
+div.classList.add("circle");
+
+// cards[1].after(div)
+// cards[2].before(div)
+// cards[2].append(div)
+cards[2].prepend(div)
+
+let footer = document.createElement("Hi")
+footer.classList.add("foot")
+footer.innerHTML = "<p>This is Footer from Js, Dom example 2025</p>"
+let main = document.querySelector("main");
+main.after(footer);
