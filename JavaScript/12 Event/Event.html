@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+</head>
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        gap: 20px;
+        margin: 20px;
+    }
+
+    .card1 {
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+    }
+
+    .card2 {
+        height: 200px;
+        width: 300px;
+        border: 1px solid black;
+    }
+
+    .box{
+        height: 200px;
+        width: 300px;
+        border: 2px solid black;
+        background-color: mediumseagreen;
+    }
+</style>
+
+<body>
+
+    <header>
+        <h1 onclick="color()">Event in JavaScript</h1>
+        <button onclick="display()">Get Started</button>
+        <button onclick="changeColor()"> change Color</button>
+        <button ondblclick="dubleClick()">Double click me </button>
+    </header>
+
+    <div class="card1">
+        <h2>I am Card </h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit laboriosam quia dolor sit recusandae esse,
+            voluptate modi excepturi accusantium numquam.</p>
+    </div>
+    <div class="card2">
+
+    </div>
+    <button onclick="copy()">Copy</button>
+
+    <div class="box" onmouseover="mouseHover()" onmouseleave="mouseHover2()">
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <script src="./Event.js"></script>
+</body>
+
+</html>

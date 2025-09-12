@@ -16,7 +16,7 @@ let data1 = async () => {
         // console.log(response);
         let json = await response.json();
         let datas = await json.map((element) => {
-            console.log(`I am Titile ${element.title}`);
+            console.log(element.title);
         })
     } catch (error) {
         console.log(error);

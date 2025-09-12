@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Task</title>
+</head>
+
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        box-sizing: border-box;
+    }
+
+    .outer {
+        height: 100vh;
+        width: 100vw;
+        position: relative;
+        padding: 30px;
+    }
+
+    .outer>.inner1 {
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+
+    }
+
+    .outer>.inner2 {
+        background-color: green;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 30px;
+    }
+
+    .outer>.inner3 {
+        background-color: blue;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+    }
+
+    .outer>.inner4 {
+        background-color: orange;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        right: 30px;
+    }
+
+    .outer>.inner5 {
+        background-color: yellow;
+        height: 100px;
+        width: 100px;
+        position: absolute;
+        bottom: 50%;
+        right: 50%;
+        transform: translateY(60%);
+        transform: translateX(50%);
+    }
+</style>
+
+<body>
+    <div class="outer">
+        <div class="inner1" onclick="redColor()">
+            <h3>Red</h3>
+        </div>
+        <div class="inner2">
+            <h3>Green</h3>
+        </div>
+        <div class="inner3">
+            <h3>Blue</h3>
+        </div>
+        <div class="inner4">
+            <h3>Orange</h3>
+        </div>
+        <div class="inner5">
+            <h3>Yellow</h3>
+        </div>
+    </div>
+
+    <script src="./Eventtask.js"></script>
+</body>
+
+</html>
