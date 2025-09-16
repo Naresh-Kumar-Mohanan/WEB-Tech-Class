@@ -116,6 +116,6 @@ inp1.addEventListener("keyup",(e)=>{
 
     let output = document.querySelector(".output")
 
-    output.innerText = e.target.value 
+    output.innerText = e.target.value
 })
 
