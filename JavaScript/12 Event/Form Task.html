@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Task</title>
+    <style>
+        .out {
+            margin-top: 20px;
+            height: 100px;
+            width: 300px;
+            border: 2px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Form Task</h1>
+    <form action="">
+        <label for="">Num 1</label>
+        <input type="number" placeholder="Enter Value : A" id="num1">
+        <label for="">Num 2</label>
+        <input type="number" placeholder="Enter Value : B" id="num2">
+        <button>Add</button>
+    </form>
+    <div class="out"></div>
+
+    <script>
+        let form = document.querySelector("form")
+        form.addEventListener("submit", (event) => {
+            event.preventDefault();
+            let num1 = parseInt(document.getElementById("num1").value)
+            let num2 = parseInt(document.getElementById("num2").value)
+            let sum = num1 + num2;
+            let div = document.querySelector(".out")
+            div.innerHTML = `<h3>The Sum Of ${num1} and ${num2} is "${sum}"</h3>`
+        })
+
+    </script>
+</body>
+
+</html>

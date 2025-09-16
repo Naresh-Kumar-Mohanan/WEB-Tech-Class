@@ -118,3 +118,4 @@ inp1.addEventListener("keyup",(e)=>{
 
     output.innerText = e.target.value 
 })
+

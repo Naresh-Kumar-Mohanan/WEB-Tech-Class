@@ -64,7 +64,7 @@ cards[1].classList.add("nk");
 let div = document.createElement("div");
 div.classList.add("circle");
 
-// cards[1].after(div)
+// cards[1].after(div)-
 // cards[2].before(div)
 // cards[2].append(div)
 cards[2].prepend(div)
