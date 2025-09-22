@@ -1,0 +1,76 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+
+nav>.username {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    text-shadow: 0px 0px 1px white;
+}
+
+nav>input {
+    width: 300px;
+    height: 35px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+::placeholder {
+    text-align: end;
+}
+
+nav>button {
+    padding: 10px;
+    border-radius: 10px;
+    background-color: azure;
+}
+
+nav>button:hover {
+    cursor: pointer;
+    text-decoration: underline;
+    background-color: cornsilk;
+}
+main{
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    position: relative;
+    gap: 50px;
+    padding: 100px;
+    background-color: black;
+}
+card{
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    border: 1px solid white;
+    box-shadow: 0px 0px 5px white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+}
+
+card:hover{
+    box-shadow: 0px 0px 15px white;
+}
