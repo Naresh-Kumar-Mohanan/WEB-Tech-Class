@@ -4,11 +4,11 @@ let rUser = localStorage.getItem("Username")
 username.innerHTML = `<h2>🙋🏻‍♂️ ${rUser},</h2>`
 
 let logout = document.getElementById("btnOut")
-logout.addEventListener("click", (e) => {
+logout.addEventListener("click", (event) => {
     open("./Login.html")
 })
 
-
+  
 
 
 let storeApi = async () => {

@@ -23,11 +23,12 @@ nav>.username {
     text-shadow: 0px 0px 1px white;
 }
 
-nav>input {
+nav>input { 
     width: 300px;
     height: 35px;
     padding: 10px;
     border-radius: 20px;
+    outline: none;
 }
 
 ::placeholder {
