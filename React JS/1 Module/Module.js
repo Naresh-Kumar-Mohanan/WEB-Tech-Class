@@ -11,13 +11,13 @@ console.log(contact);
 console.log("****************************************");
 
 
-import {course} from "./Storage.js"
-let [a,b,c] = course
+import { course } from "./Storage.js"
+let [a, b, c] = course
 console.log(a);
 console.log(b);
 console.log(c);
 
-import {abc} from "./Storage.js";
+import { abc } from "./Storage.js";
 abc();
 
 
