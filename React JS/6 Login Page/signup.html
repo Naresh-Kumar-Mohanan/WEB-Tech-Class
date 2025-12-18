@@ -1,0 +1,114 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: #f4f7f6;
+            /* Very light grey/blue */
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            padding-top: 60px;
+        }
+
+        form {
+            background: #ffffff;
+            padding: 40px;
+            margin-top: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+            width: 350px;
+        }
+
+        h1 {
+            position: absolute;
+            margin-top: 0;
+            margin-bottom: 25px;
+            font-weight: 600;
+            color: #333;
+            text-align: center;
+        }
+
+        label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input {
+            width: 100%;
+            padding: 12px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            box-sizing: border-box;
+            /* Crucial for alignment */
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+
+        input:focus {
+            border-color: #007bff;
+            /* Blue highlight on click */
+            outline: none;
+        }
+
+        button {
+            width: 100%;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 12px;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        br {
+            display: none;
+        }
+
+        #error {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>SignUp</h1>
+    <form action="">
+
+        <label for="">Name</label>
+        <input type="text" placeholder="Enter UserName" name="name"><br><br>
+
+        <label for="">Email-Id</label>
+        <input type="email" placeholder="Enter Email" name="email"><br><br>
+
+        <label for="">Password</label>
+        <input type="password" placeholder="Enter Password" name="password"><br><br>
+
+        <label for="">URL</label>
+        <input type="url" placeholder="Enter Image URL" name="avatar"><br><br>
+
+        <button>Submit</button>
+    </form>
+
+
+    <div id="error"></div>
+
+    <script src="./signup.js"></script>
+
+</body>
+
+</html>

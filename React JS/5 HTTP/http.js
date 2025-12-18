@@ -22,3 +22,25 @@ async function abc() {
     })
 }
 abc();
+
+let btn = document.querySelector("button");
+let oneUser = {
+    name: " Naresh Kumar",
+    email: "Naresh@gmail.com",
+    password: 29110,
+    avatar: "https://i.pinimg.com/236x/5c/af/3c/5caf3c487ef0d2b4384d9934631238bb.jpg"
+}
+
+btn.addEventListener("click", async () => {
+
+    let res = await fetch("https://api.escuelajs.co/api/v1/users", {
+        method: "POST",
+        headers: {
+            "content-type": "application/json",
+        },
+        body: JSON.stringify(oneUser),
+
+    });
+    let data = await res.json();
+    console.log(data);
+}, false);
