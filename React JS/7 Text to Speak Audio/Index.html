@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text to Audio</title>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        textarea {
+            height: 200px;
+            width: 400px;
+            display: flex;
+            text-align: center;
+            box-shadow: -3px -3px 3px black;
+            border-radius: 20px;
+            font-size: 16px;
+        }
+
+        textarea:hover {
+            cursor: text;
+        }
+
+        textarea::placeholder {
+            font-size: 15px;
+        }
+
+        button {
+            height: 30px;
+            width: 400px;
+            margin-top: 20px;
+            border-radius: 20px;
+            border: none;
+            box-shadow: 3px 3px 3px black;
+            text-transform: capitalize;
+            font-weight: bold;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: cadetblue;
+        }
+
+        select {
+            height: 30px;
+            width: 400px;
+            border: none;
+            box-shadow: 0px 0px 10px black;
+            border-radius: 20px;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea name="speak" placeholder="Type Here"></textarea>
+    <button>speech</button>
+
+    <select name="" id="">
+
+    </select>
+
+    <script src="./Style.js"></script>
+</body>
+
+</html>
