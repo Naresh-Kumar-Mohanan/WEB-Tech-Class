@@ -1,7 +1,7 @@
-import "./image.css"
+import "./index.css"
 
 export default function Image() {
     return <div id="image">
-        <img src="./public/image.png" alt="" />
+        <img src="./image.png" alt="" />
     </div>
 }

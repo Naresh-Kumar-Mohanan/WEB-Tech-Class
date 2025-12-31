@@ -1,4 +1,4 @@
-import "./image.css"
+import "./index.css"
 
 export default function Prep() {
     return <div className="prep">
