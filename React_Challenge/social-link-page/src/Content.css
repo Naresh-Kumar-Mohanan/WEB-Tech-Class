@@ -1,0 +1,76 @@
+:root {
+    --overallBack: hsl(0, 0%, 8%);
+    --container: hsl(0, 0%, 12%);
+    --buttonColor: hsl(0, 0%, 20%);
+    --textColor: hsl(0, 0%, 100%);
+    --textColor2: hsl(75, 94%, 57%);
+}
+
+.outerLayer {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--overallBack);
+}
+
+.outerLayer>.content {
+    width: 390px;
+    padding: 35px;
+    text-align: center;
+    border-radius: 20px;
+    opacity: 80%;
+    color: var(--textColor);
+    background-color: var(--container);
+}
+
+.outerLayer>.content>img {
+    height: 100px;
+    border-radius: 50%;
+    margin: 10px;
+    margin-bottom: 20px;
+}
+
+.outerLayer>.content>h2 {
+    margin: 10px;
+    font-size: 1.6rem;
+    font-weight: 550;
+}
+
+.outerLayer>.content>#p1 {
+    color: var(--textColor2);
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 35px;
+    opacity: 100%;
+}
+
+.outerLayer>.content>p {
+    margin-bottom: 20px;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 85%;
+}
+
+.outerLayer>.content>.tags {
+    display: flex;
+    flex-direction: column;
+}
+
+.outerLayer>.content>.tags button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.20px;
+    padding: 22px 0px;
+    margin: 9px 0;
+    height: 2.5rem;
+    font-size: 14px;
+    opacity: 100%;
+    font-weight: bold;
+    border-radius: 7px;
+    border: none;
+    color: var(--textColor);
+    background-color: var(--buttonColor);
+}
