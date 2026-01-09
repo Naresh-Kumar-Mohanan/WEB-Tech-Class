@@ -1,19 +1,28 @@
-import { useState } from "react";
+import { useState } from "react"
+import Theme from "./Theme";
 
+let App = () => {
+  let [state, setState] = useState(0)
+  console.log(state);
 
-const App = () => {
-
-  let count = 0;
-  console.log(useState(0));
-  let [state, setState] = useState();
-
-  function abc() {
-    setState(state + 1);
+  function handleClick() {
+    setState(state + 1)
   }
+
+  function decreaseClick() {
+    setState(state - 1)
+  }
+
+  // return <div>
+  //   <Theme></Theme>
+  // </div>
+
   return <div>
     <h1>{state}</h1>
-    <button onClick={abc}>Add</button>
-  </div>
-}
+    <button onClick={handleClick}>Increase</button>
 
+    <button onClick={decreaseClick}>Decrease</button>
+  </div>
+
+}
 export default App
