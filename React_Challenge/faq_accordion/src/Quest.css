@@ -1,0 +1,27 @@
+:root {
+    --backColor: hsl(275, 100%, 97%);
+    --iconColor: hsl(292, 16%, 49%);
+    --darkPurple: hsl(292, 42%, 14%);
+}
+
+button {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    border: none;
+    color: var(--darkPurple);
+    font-weight: bold;
+}
+
+p {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: var(--iconColor);
+}
+
+.faq-item:last-child hr {
+    display: none;
+}
