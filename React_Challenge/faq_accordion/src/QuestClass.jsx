@@ -7,10 +7,19 @@ const Quest1 = () => {
 
     let [first, setFirst] = useState("hide")
 
+
+    function handleClick() {
+        if (first == "hide") {
+            setFirst("show")
+        } else {
+            setFirst("hide")
+        }
+    }
+
     return (
         <div className="quest">
             <div> <h3>What is Frontend Mentor, and how will it help me?</h3>
-                <img src={first == "hide" ? plus : minus} alt="" />
+                <img src={first == "hide" ? plus : minus} alt="" onClick={handleClick} />
             </div>
             <p>Frontend Mentor offers realistic coding challenges to help developers improve their
                 frontend coding skills with projects in HTML, CSS, and JavaScript. It's suitable for

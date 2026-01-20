@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "title": "Jana Nayagan | Thalapathy Vijay",
+        "imgUrl": "./Jana_Nayagan.jpg",
+        "videoUrl": "./Jana_Nayagan_Song.mp4"
+    },
+    {
+        "id": 2,
+        "title": "Singari from Dude",
+        "imgUrl": "./Singari.jpg",
+        "videoUrl": "./Singari_Song.mp4"
+    },
+    {
+        "id": 3,
+        "title": "Monika from Cooli",
+        "imgUrl": "./Monika.jpg",
+        "videoUrl": "./Monica_Song.mp4"
+    },
+    {
+        "id": 4,
+        "title": "Tere Ishq Mein | Dhanush",
+        "imgUrl": "./Tere_Ishq_Mein.jpg",
+        "videoUrl": "./Tere_Ishk_Mein_Song.mp4"
+    },
+    {
+        "id": 5,
+        "title": "Muthaarame from Parasakthi",
+        "imgUrl": "./Muthaarame.jpg",
+        "videoUrl": "./Muthaarame_Song.mp4"
+    }
+]

@@ -1,0 +1,49 @@
+.app {
+    height: 100vh;
+    display: flex;
+    font-weight: 100;
+    font-style: italic;
+    font-size: 9.5px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    background-color: black;
+}
+
+main {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    width: 80%;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+
+video {
+    width: 80%;
+    border-radius: 10px;
+}
+
+aside {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+    justify-content: center;
+    gap: 15px;
+}
+
+img {
+    border-radius: 10px;
+    height: 150px;
+    transition: all ease-in-out 0.2s;
+}
+
+img:hover {
+    cursor: pointer;
+    scale: 1.06;
+}
