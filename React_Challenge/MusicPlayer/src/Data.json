@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "name": "Jana Nayagan",
+        "imgUrl": "./Jana_Nayagan.jpg",
+        "audioUrl": "./Jana_Nayagan_Thalapathy.webm"
+    },
+    {
+        "id": 2,
+        "name": "Monica",
+        "imgUrl": "./Monika.jpg",
+        "audioUrl": "./Monica.webm"
+    },
+    {
+        "id": 3,
+        "name": "Muthaarame",
+        "imgUrl": "./Muthaarame.jpg",
+        "audioUrl": "./Muthaarame.mp4"
+    },
+    {
+        "id": 4,
+        "name": "Singari",
+        "imgUrl": "./Singari.jpg",
+        "audioUrl": "./Singari.webm"
+    },
+    {
+        "id": 5,
+        "name": "Tere Ishq Mein",
+        "imgUrl": "./Tere_Ishq_Mein.jpg",
+        "audioUrl": "./Tere_Ishk_Mein.mp4"
+    }
+]

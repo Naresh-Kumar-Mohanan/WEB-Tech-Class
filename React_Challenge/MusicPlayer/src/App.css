@@ -1,0 +1,71 @@
+.app {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: black;
+    color: white;
+}
+
+.player {
+    height: 85%;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 10px;
+    border-radius: 20px;
+}
+
+main>audio {
+    width: 300px;
+    height: 45px;
+    outline: none;
+    border-radius: 25px;
+    filter: sepia(20%) saturate(150%) hue-rotate(300deg) contrast(90%);
+    margin-top: 25px;
+    margin-bottom: -10px;
+}
+
+main>h1 {
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.02px;
+    margin-bottom: -15px;
+}
+
+aside {
+    display: flex;
+    gap: 30px;
+    margin-top: 45px;
+    position: relative;
+}
+
+img {
+    width: 200px;
+    height: 150px;
+    object-fit: fill;
+    border-radius: 30px;
+}
+
+img:hover {
+    scale: 1.03;
+    transition: all 0.6s ease-in-out;
+    box-shadow: 0 0 10px 5px rgba(0, 0, 0, 0.473);
+    cursor: pointer;
+    position: relative;
+    top: -10px;
+}
+
+button{
+}
