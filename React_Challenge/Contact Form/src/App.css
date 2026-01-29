@@ -1,0 +1,124 @@
+.app {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--MainBackColor);
+}
+
+.innerBox {
+  width: 40%;
+  display: flex;
+  padding: 40px;
+  border-radius: 20px;
+  align-items: flex-start;
+  background-color: white;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.705);
+  font-size: 1.7em;
+  margin-bottom: -25px;
+}
+
+.innerBox form div {
+  margin-top: 30px;
+}
+
+input {
+  display: block;
+  border-radius: 7px;
+  padding: 10px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+label {
+  font-weight: bold;
+  color: gray;
+}
+
+.name input,
+.email>input {
+  width: 100%;
+  margin-top: 10px;
+  height: 40px;
+}
+
+label {
+  font-size: 14px;
+}
+
+form {
+  width: 100%;
+}
+
+form .name {
+  width: 100%;
+  display: flex;
+  gap: 13px;
+}
+
+.left,
+.right {
+  width: 50%;
+}
+
+.qt input[type="radio"] {
+  display: inline;
+}
+
+.qt {
+  display: flex;
+  justify-content: start;
+  gap: 13px;
+}
+
+.qt>.left,
+.qt>.right {
+  border-radius: 7px;
+  margin-top: -15px;
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  padding-left: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+
+.qt label {
+  font-size: 16px;
+  margin-left: 15px;
+}
+
+.msg textarea {
+  width: 100%;
+  height: 150px;
+  margin-top: 10px;
+  margin-bottom: 35px;
+  padding: 10px;
+  border-radius: 7px;
+  border: 1px solid rgba(0, 0, 0, 0.397);
+}
+
+.arg {
+  width: 100%;
+  display: flex;
+  gap: 20px;
+  font-weight: bold;
+}
+
+
+button {
+  width: 100%;
+  height: 50px;
+  border-radius: 7px;
+  margin-top: 15px;
+  color: white;
+  font-weight: bold;
+  border: none;
+  background-color: hsl(169, 82%, 27%);
+}
+
+button:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,13 @@
+.app {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--ThirdBack);
+}
+
+.app>section {
+    width: 70%;
+    border-radius: 20px;
+    background-color: white;
+}
