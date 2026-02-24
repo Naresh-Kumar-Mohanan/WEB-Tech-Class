@@ -1,0 +1,11 @@
+nav{
+    background-color: black;
+}
+
+.nav>nav>ul{
+    display: flex;
+    list-style-type: none;
+  color: white;
+  padding: 1rem;
+  gap: 1rem;
+}
