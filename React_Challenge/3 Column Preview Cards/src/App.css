@@ -1,0 +1,57 @@
+h1 {
+    font-family: var(--PrimaryText);
+    text-transform: uppercase;
+}
+
+p {
+    font-family: var(--SecondaryText);
+}
+
+
+.card {
+    height: 60%;
+    width: 17%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 60px 40px;
+    gap: 25px;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+    margin-top: 40px;
+    height: 50px;
+    width: 150px;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    font-weight: bold;
+    color: hsl(0, 0%, 95%);
+}
+
+#a {
+    background-color: hsl(31, 77%, 52%);
+}
+
+
+#b {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#c {
+    background-color: hsl(179, 100%, 13%);
+}
+
+#a>button {
+    color: hsla(31, 77%, 52%, 0.7);
+}
+
+#b>button {
+    color: hsl(184, 100%, 22%, 0.7);
+}
+
+#c>button {
+    color: hsl(179, 100%, 13%, 0.7);
+}
